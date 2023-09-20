@@ -1,0 +1,16 @@
+[
+    {
+        "URL": "https://github.com/EkkoG/openwrt-geodata.git",
+        "subdir": [
+            {
+                "dir": "Loyalsoldier-geodata"
+            },
+            {
+                "dir": "MetaCubeX-geodata"
+            },
+            {
+                "dir": "v2ray-geodata"
+            }
+        ]
+    }
+]
