@@ -1,4 +1,4 @@
-name: Openwrt Packages Build Bot
+name: Build v2ray
 on:
   push:
     branches: main
@@ -51,6 +51,6 @@ jobs:
           flags: '-ahvHP'
           options: '--delete'
           src: 'bin/packages/*/action/'
-          dest: '${{ secrets.SF_USER }}@frs.sourceforge.net:/home/frs/project/ekko-openwrt-dist/geodata/v2ray/${{ matrix.arch }}/'
+          dest: '${{ secrets.SF_USER }}@frs.sourceforge.net:/home/frs/project/ekko-openwrt-dist/geodata/v2ray/'
         env:
           DEPLOY_KEY: ${{ secrets.SF_KEY }}
