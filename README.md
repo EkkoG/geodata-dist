@@ -14,6 +14,6 @@ sh -c "$(curl https://raw.fgit.cf/EkkoG/openwrt-dist/master/add-feed.sh)" -- geo
 
 ```bash
 opkg update
-opkg install geoip-v2ray
-opkg install geosite-v2ray
+opkg install v2ray-geoip
+opkg install v2ray-geosite
 ```
