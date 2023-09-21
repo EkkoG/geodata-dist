@@ -22,8 +22,8 @@ define Download/geoip
   HASH:=$(GEOIP_FILE_HASH)
 endef
 
-GEOSITE_VER:=202309192208
-GEOSITE_FILE_HASH:=632bf5b9a1bca5fc12c3d672ad890ad1ccbb3e9ada48031fa1f19687219f0b69
+GEOSITE_VER:=202309202208
+GEOSITE_FILE_HASH:=ba360d1b19cce9c03b651a5469009b57f6961b63fc862e873170219859d25498
 GEOSITE_FILE:=geosite.dat
 define Download/geosite
   URL:=https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$(GEOSITE_VER)/
@@ -43,14 +43,14 @@ endef
 define Package/v2ray-geoip
   $(call Package/v2ray-geodata/template)
   TITLE:=GeoIP List for V2Ray
-  VERSION:=$(GEOIP_VER)-$(PKG_RELEASE)
+  VERSION:=$(GEOIP_VER)-$(PKG_RELEASE)00
   LICENSE:=CC-BY-SA-4.0
 endef
 
 define Package/v2ray-geosite
   $(call Package/v2ray-geodata/template)
   TITLE:=Geosite List for V2Ray
-  VERSION:=$(GEOSITE_VER)-$(PKG_RELEASE)
+  VERSION:=$(GEOSITE_VER)-$(PKG_RELEASE)00
   LICENSE:=MIT
 endef
 
