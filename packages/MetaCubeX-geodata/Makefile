@@ -22,8 +22,8 @@ define Download/geoip
   HASH:=$(GEOIP_FILE_HASH)
 endef
 
-GEOSITE_VER:=20231016160401
-GEOSITE_FILE_HASH:=0cf456718fb921d52cb909ae9bd3a080b28e4eb1eb770634a3e9eaa6b274bc67
+GEOSITE_VER:=20231017160406
+GEOSITE_FILE_HASH:=6cf1db535c709c7384df3bee697a6d699c89a1a47b11e58c5f8a1d587e6e798b
 GEOSITE_FILE:=geosite.dat
 define Download/geosite
   URL:=https://github.com/MetaCubeX/meta-rules-dat/raw/release/
