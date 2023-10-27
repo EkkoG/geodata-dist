@@ -12,8 +12,8 @@ PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
 include $(INCLUDE_DIR)/package.mk
 
-GEOIP_VER:=20231020160350
-GEOIP_FILE_HASH:=4914a25591f2d3d90388b68a76ea3bf74e11a622b32b3191a5d01e95cb5584fe
+GEOIP_VER:=20231027160344
+GEOIP_FILE_HASH:=8afbfc2d7816bdae5df9daf284f826b430d33e5fde96a6a0862a0899d69da024
 GEOIP_FILE:=geoip.dat
 define Download/geoip
   URL:=https://github.com/MetaCubeX/meta-rules-dat/raw/release/
@@ -22,8 +22,8 @@ define Download/geoip
   HASH:=$(GEOIP_FILE_HASH)
 endef
 
-GEOSITE_VER:=20231026160349
-GEOSITE_FILE_HASH:=61e391c14db24c0f2b5febd73b9102f9548d128fe32eac0a771d42af3694c347
+GEOSITE_VER:=20231027160346
+GEOSITE_FILE_HASH:=927007f8994935ddd78d19034d8884f8c7569cdc12ea88b6f038e3087bc30b8b
 GEOSITE_FILE:=geosite.dat
 define Download/geosite
   URL:=https://github.com/MetaCubeX/meta-rules-dat/raw/release/
