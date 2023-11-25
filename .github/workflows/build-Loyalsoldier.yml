@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         arch:
-          - x86_64-v23.05.0-rc3
+          - x86_64-v23.05.2
 
     steps:
       - uses: actions/checkout@v3
