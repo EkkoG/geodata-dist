@@ -5,9 +5,9 @@ v2ray-like geodata feed for OpenWrt
 Pick one of the source you want to add, and run it
 
 ```bash
-sh -c "$(curl https://raw.fgit.cf/EkkoG/openwrt-dist/master/add-feed.sh)" -- geodata/v2ray
-sh -c "$(curl https://raw.fgit.cf/EkkoG/openwrt-dist/master/add-feed.sh)" -- geodata/Loyalsoldier
-sh -c "$(curl https://raw.fgit.cf/EkkoG/openwrt-dist/master/add-feed.sh)" -- geodata/MetaCubeX
+sh -c "$(curl https://fastly.jsdelivr.net/gh/EkkoG/openwrt-dist@master/add-feed.sh)" -- geodata/v2ray
+sh -c "$(curl https://fastly.jsdelivr.net/gh/EkkoG/openwrt-dist@master/add-feed.sh)" -- geodata/Loyalsoldier
+sh -c "$(curl https://fastly.jsdelivr.net/gh/EkkoG/openwrt-dist@master/add-feed.sh)" -- geodata/MetaCubeX
 ```
 
 ## Install
