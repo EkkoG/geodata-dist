@@ -22,8 +22,8 @@ define Download/geoip
   HASH:=$(GEOIP_FILE_HASH)
 endef
 
-GEOSITE_VER:=202509292211
-GEOSITE_FILE_HASH:=458f81dd832f63204043b4c4449067e4badada2e9f773f37843910d4dc0dffa5
+GEOSITE_VER:=202509302212
+GEOSITE_FILE_HASH:=b2611140a60ec1b7940821e608ab38eadccd051d7bf68c9cf9454986474b1dd3
 GEOSITE_FILE:=geosite.dat
 define Download/geosite
   URL:=https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$(GEOSITE_VER)/
