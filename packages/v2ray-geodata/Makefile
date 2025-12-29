@@ -22,8 +22,8 @@ define Download/geoip
   HASH:=$(GEOIP_FILE_HASH)
 endef
 
-GEOSITE_VER:=20251228101739
-GEOSITE_FILE_HASH:=3e6175bb9c76981f07cb645615fe8964a97ec64c60eb58297cb82e0092f23bbc
+GEOSITE_VER:=20251229125847
+GEOSITE_FILE_HASH:=76a04c2cdc92fe224f6367112fb67a7593b0882784aebecba66f8a531777b241
 GEOSITE_FILE:=dlc.dat.$(GEOSITE_VER)
 define Download/geosite
   URL:=https://github.com/v2fly/domain-list-community/releases/download/$(GEOSITE_VER)/
