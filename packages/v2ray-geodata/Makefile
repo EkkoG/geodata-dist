@@ -12,8 +12,8 @@ PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
 include $(INCLUDE_DIR)/package.mk
 
-GEOIP_VER:=202604050243
-GEOIP_FILE_HASH:=16dbd19ff8dddb69960f313a3b0c0623cae82dc9725687110c28740226d3b285
+GEOIP_VER:=202605050255
+GEOIP_FILE_HASH:=e9002979e0df72bce1c8751ff70725386594c551db684b7a232935b8b2bb8aa2
 GEOIP_FILE:=geoip.dat.$(GEOIP_VER)
 define Download/geoip
   URL:=https://github.com/v2fly/geoip/releases/download/$(GEOIP_VER)/
@@ -22,8 +22,8 @@ define Download/geoip
   HASH:=$(GEOIP_FILE_HASH)
 endef
 
-GEOSITE_VER:=20260504112825
-GEOSITE_FILE_HASH:=9041f93335a91e866e8d31a0b1cab0a78bbf856da08e87b7d3c5a9e4e7263be9
+GEOSITE_VER:=20260505033347
+GEOSITE_FILE_HASH:=ddc9002401ed914b02063b5dc6c7884d140480ae54919c0eb95414c208e49d20
 GEOSITE_FILE:=dlc.dat.$(GEOSITE_VER)
 define Download/geosite
   URL:=https://github.com/v2fly/domain-list-community/releases/download/$(GEOSITE_VER)/
